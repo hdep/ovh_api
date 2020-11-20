@@ -24,3 +24,4 @@ for i in result:
       target='"TOTO"', # Resource record target (type: string)
       ttl=400, # Resource record ttl (type: long)
   )
+  client.post('/domain/zone/'+i+'/refresh',)
